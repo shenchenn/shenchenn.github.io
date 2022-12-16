@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>http://shenchenn.github.io/post/myfirst/</loc>
-    <lastmod>2022-12-15T22:54:00+08:00</lastmod>
-  </url><url>
-    <loc>http://shenchenn.github.io/post/</loc>
-    <lastmod>2022-12-15T22:54:00+08:00</lastmod>
-  </url><url>
-    <loc>http://shenchenn.github.io/</loc>
-    <lastmod>2022-12-15T22:54:00+08:00</lastmod>
-  </url><url>
-    <loc>http://shenchenn.github.io/categories/</loc>
-  </url><url>
-    <loc>http://shenchenn.github.io/tags/</loc>
-  </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>https://shenchenn.github.io/en/sitemap.xml</loc>
+    
+      <lastmod>2022-12-15T22:54:00+08:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://shenchenn.github.io/fr/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://shenchenn.github.io/fa/sitemap.xml</loc>
+    
+  </sitemap>
+  
+</sitemapindex>
