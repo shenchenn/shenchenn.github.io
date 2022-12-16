@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>https://shenchenn.github.io/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Dec 2022 22:54:00 +0800</lastBuildDate><atom:link href="https://shenchenn.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Myfirst</title>
+      <link>https://shenchenn.github.io/post/myfirst/</link>
+      <pubDate>Thu, 15 Dec 2022 22:54:00 +0800</pubDate>
+      
+      <guid>https://shenchenn.github.io/post/myfirst/</guid>
+      <description>这是我的第一篇文章
+测试
+int i = 1; 123
+Aa
+第一条
+第二条
+标题 </description>
+    </item>
+    
+  </channel>
+</rss>
