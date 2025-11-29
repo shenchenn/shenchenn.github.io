@@ -25,5 +25,5 @@ jobs:
           ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY_ID }}
           ACCESS_KEY_SECRET: ${{ secrets.ACCESS_KEY_SECRET }}
         run: |
-          ossutil cp -r ./ oss://web-chensnable/ --access-key-id=$ACCESS_KEY_ID --access-key-secret=$ACCESS_KEY_SECRET --endpoint=your-endpoint
+          ossutil cp -r ./ oss://web-chensnable/ --access-key-id=$ALIYUN_OSS_WEB_KEY --access-key-secret=$ALIYUN_OSS_WEB_SECRET --endpoint=your-endpoint
 
