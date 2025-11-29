@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout
+        uses: shenchenn/shenchenn.github.io@master
       # # 执行应用打包步骤
       # - name: Install dependencies and build
       #   run: |
