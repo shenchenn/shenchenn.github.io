@@ -25,5 +25,7 @@ jobs:
           ACCESS_KEY_ID: ${{ secrets.ALIYUN_OSS_WEB_KEY }}
           ACCESS_KEY_SECRET: ${{ secrets.ALIYUN_OSS_WEB_SECRET }}
         run: |
-          ossutil cp -r ./ oss://web-chensnable/ --access-key-id=$ACCESS_KEY_ID --access-key-secret=$ACCESS_KEY_SECRET --endpoint=your-endpoint
+          # 删除原有的静态资源
+          ossutil rm -rf oss://${{ secrets.OSS_BUCKET }}  --access-key-id=$ACCESS_KEY_ID --access-key-secret=$ACCESS_KEY_SECRET
+          # ossutil cp -r ./ oss://web-chensnable/ --access-key-id=$ACCESS_KEY_ID --access-key-secret=$ACCESS_KEY_SECRET --endpoint=your-endpoint
 
