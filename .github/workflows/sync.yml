@@ -26,5 +26,5 @@ jobs:
           ACCESS_KEY_SECRET: ${{ secrets.ALIYUN_OSS_WEB_SECRET }}
         run: |
           ossutil rm -rf oss://web-chensnable/  --access-key-id=$ACCESS_KEY_ID --access-key-secret=$ACCESS_KEY_SECRET --endpoint=oss-cn-hangzhou.aliyuncs.com
-          # ossutil cp -r ./ oss://web-chensnable/ --access-key-id=$ACCESS_KEY_ID --access-key-secret=$ACCESS_KEY_SECRET --endpoint=oss-cn-hangzhou.aliyuncs.com
+          ossutil cp -r ./ oss://web-chensnable/ --access-key-id=$ACCESS_KEY_ID --access-key-secret=$ACCESS_KEY_SECRET --endpoint=oss-cn-hangzhou.aliyuncs.com
 
