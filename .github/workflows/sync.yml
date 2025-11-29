@@ -12,7 +12,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
         with:
-        path: repo
+          path: repo
       # # 执行应用打包步骤
       # - name: Install dependencies and build
       #   run: |
